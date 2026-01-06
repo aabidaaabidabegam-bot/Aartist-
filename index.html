@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nargis Mehendi Artist</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background:#0c0c0c;
+    color:#fff;
+}
+
+/* HERO */
+.hero{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+    url("https://i.ibb.co/your-main-photo.jpg") center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+.hero h1{
+    font-size:48px;
+    color:#d4af37;
+    letter-spacing:3px;
+}
+.hero p{
+    font-size:18px;
+    max-width:600px;
+    margin:auto;
+    color:#eee;
+}
+
+/* SECTION */
+section{
+    padding:60px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+h2{
+    text-align:center;
+    color:#d4af37;
+    font-size:32px;
+    margin-bottom:30px;
+}
+
+/* ABOUT */
+.about{
+    text-align:center;
+    line-height:1.8;
+    color:#ccc;
+}
+
+/* GALLERY */
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+.gallery img{
+    width:100%;
+    border-radius:12px;
+    transition:0.4s;
+}
+.gallery img:hover{
+    transform:scale(1.08);
+    box-shadow:0 0 20px #d4af37;
+}
+
+/* SERVICES */
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+.service-box{
+    background:#151515;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+    transition:.4s;
+}
+.service-box:hover{
+    background:#1f1f1f;
+    transform:translateY(-8px);
+}
+
+/* FOOTER */
+footer{
+    background:#000;
+    text-align:center;
+    padding:20px;
+    color:#888;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h1>Nargis Mehendi Artist</h1>
+        <p>Elegant • Traditional • Bridal Mehendi Designs  
+        Creating timeless beauty with every pattern</p>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<section>
+<h2>About Me</h2>
+<p class="about">
+I am Nargis, a professional Mehendi Artist specializing in bridal, festive and traditional mehendi designs.
+Each design is handcrafted with precision, creativity and love to make your special moments unforgettable.
+</p>
+</section>
+
+<!-- GALLERY -->
+<section>
+<h2>Mehendi Gallery</h2>
+<div class="gallery">
+    <img src="https://i.ibb.co/photo1.jpg">
+    <img src="https://i.ibb.co/photo2.jpg">
+    <img src="https://i.ibb.co/photo3.jpg">
+    <img src="https://i.ibb.co/photo4.jpg">
+    <img src="https://i.ibb.co/photo5.jpg">
+    <img src="https://i.ibb.co/photo6.jpg">
+</div>
+</section>
+
+<!-- SERVICES -->
+<section>
+<h2>Services</h2>
+<div class="services">
+    <div class="service-box">Bridal Mehendi</div>
+    <div class="service-box">Arabic Mehendi</div>
+    <div class="service-box">Traditional Mehendi</div>
+    <div class="service-box">Festival Mehendi</div>
+</div>
+</section>
+
+<footer>
+© 2026 Nargis Mehendi Artist | All Rights Reserved
+</footer>
+
+</body>
+</html>
